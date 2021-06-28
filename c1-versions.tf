@@ -11,9 +11,7 @@ terraform {
 
 # Provider Block
 provider "aws" {
-  region  = var.aws_region
-  access_key = "AKIAVOOZM42CXQH5MBBP"
-  secret_key = "cYkr+vYynd6ZswF6aVUNmTaTFvGyb/kGu6I4lj9p"  
+  region  = var.aws_region 
 }
 /*
 Note-1:  AWS Credentials Profile (profile = "default") configured on your local desktop terminal  
